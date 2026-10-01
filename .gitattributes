@@ -1,0 +1,5 @@
+# This launcher is GBK encoded and must retain CRLF exactly.
+*.vbs binary
+*.ico binary
+*.png binary
+*.onnx binary

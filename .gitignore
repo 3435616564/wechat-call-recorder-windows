@@ -1,0 +1,34 @@
+# User data and local settings: never publish these.
+config.json
+config.json.tmp
+durations.json
+logs/
+测试录音/
+备份/
+__pycache__/
+*.py[cod]
+*.log
+*.mp3
+*.wav
+*.partial.mp3
+ocr_diag/
+
+# Large bundled dependencies belong in the downloadable release archive.
+runtime/
+models/
+_wheels/
+发布输出/
+UI设计素材_可爱麦克风_20260929/
+
+# Local development notes and one-off scripts.
+交接说明_给Codex做UI.md
+项目交接文档.md
+项目交接文档.docx
+_launch_gui.py
+_show_window.py
+自检_本地转写链路.py
+API配置指引.md
+启动（调试-带控制台）.bat
+assets/icons/_检查_*
+.DS_Store
+Thumbs.db

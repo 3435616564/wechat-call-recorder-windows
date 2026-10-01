@@ -1,0 +1,8 @@
+PyAudioWPatch==0.2.12.8
+numpy>=2,<3
+imageio-ffmpeg>=0.6,<1
+pystray>=0.19
+pillow>=10
+comtypes>=1.4
+winsdk>=1.0.0b10
+pycaw>=20240210
