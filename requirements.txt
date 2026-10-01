@@ -6,3 +6,5 @@ pillow>=10
 comtypes>=1.4
 winsdk>=1.0.0b10
 pycaw>=20240210
+psutil>=7,<8
+sherpa-onnx==1.13.8

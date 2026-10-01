@@ -2,6 +2,10 @@
 
 Windows 桌面端微信通话录音工具。微信通话接通后自动录制，挂断后保存 MP3；可以在本机免费转成文字稿，也可以自行配置 AI 服务来整理和追问内容。
 
+**[下载 Windows 便携版（约 449 MB）](https://github.com/3435616564/wechat-call-recorder-windows/releases/download/v2.0.0-rc1/wechat-call-recorder-2.0.0-rc1-win64.zip)** · [查看发行说明](https://github.com/3435616564/wechat-call-recorder-windows/releases/tag/v2.0.0-rc1)
+
+当前版本为 `2.0.0-rc1` 候选版：已完成本机独立目录启动与包完整性检查，不同电脑上的真实微信通话仍需实测。
+
 ## 下载与使用
 
 请从本项目的 **Releases** 下载名称以 `win64.zip` 结尾的 Windows 便携包。GitHub 页面右侧的“下载源码 ZIP”不含运行时和语音模型，不能直接运行。
@@ -30,5 +34,7 @@ Windows 桌面端微信通话录音工具。微信通话接通后自动录制，
 ## 开发者
 
 仓库只保存应用源码和图标。GitHub 对单个普通 Git 文件有 100 MB 限制，因此约 800 MB 的 Windows 内置运行时与本地语音模型放在 Release 下载包内；仓库源码 ZIP 不是可运行软件。发行包在已配好运行时和模型的 Windows 开发目录中执行 `制作发行包.ps1` 生成。
+
+若要在 Windows 上修改源码，可先下载并解压便携包，再将其中的 `runtime` 和 `models` 复制到克隆的源码目录。项目脚本用 `runtime\Python312\python.exe` 或 `pythonw.exe` 运行。`requirements.txt` 用于记录直接依赖，普通使用者不需要安装它。
 
 第三方组件及语音模型的来源和许可见 [第三方组件说明](第三方组件说明.md)。
